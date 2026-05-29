@@ -13,3 +13,13 @@ Run the executable to spin up the virtual environment and execute the pre-mapped
 ```bash
 ./dove
 ```
+
+# Architecture & Style Note
+
+## Architectural Blueprint
+DOVE establishes a virtual processor structure containing mock registers and custom instruction sets inside the `dove` namespace. Bytecode strings are pushed into an isolated execution stack, parsed via an internal micro-opcode loop, and executed securely. High-precision registers maintain localized execution states to avoid standard system interrupt overhead.
+
+## Code Style Manifesto
+- **Bracket Realization:** Built completely using explicit Allman-style alignment for maximum scannability.
+- **Namespace Realization:** All structures are locked inside the localized `dove` namespace.
+- **Encapsulation Density:** Components maintain atomic state managers, keeping performance overhead at absolute zero.
