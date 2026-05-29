@@ -12,3 +12,4 @@ DOVE is a lightweight, ultra-fast virtualized instruction runtime and isolated b
 Run the executable to spin up the virtual environment and execute the pre-mapped bytecode:
 ```bash
 ./dove
+```
