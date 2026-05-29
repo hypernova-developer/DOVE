@@ -632,7 +632,7 @@ state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
     <DOVE (Direct Operating Virtual Executable) is a lightweight virtualized bytecode instruction parser and runtime isolated execution chamber written in modern C++. Designed for zero-overhead instruction processing, it facilitates rapid register-based operations and sandboxed system logic manipulation directly inside memory pools.>
-    Copyright (C) <year>  <hypernova-developer>
+    Copyright (C) <2026>  <hypernova-developer>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
