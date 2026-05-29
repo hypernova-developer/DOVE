@@ -23,3 +23,6 @@ DOVE establishes a virtual processor structure containing mock registers and cus
 - **Bracket Realization:** Built completely using explicit Allman-style alignment for maximum scannability.
 - **Namespace Realization:** All structures are locked inside the localized `dove` namespace.
 - **Encapsulation Density:** Components maintain atomic state managers, keeping performance overhead at absolute zero.
+
+## Licensing
+- This project is licensed under the **GNU GPL v3.0** License. All rights reserved by **hypernova-developer**.
