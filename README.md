@@ -1,1 +1,14 @@
+# DOVE (Direct Operating Virtual Executable)
 
+DOVE is a lightweight, ultra-fast virtualized instruction runtime and isolated bytecode execution chamber written in modern C++. Built for raw speed and terminal efficiency, it automates the decoding of custom native vectors and yields virtual register telemetry directly inside the console.
+
+## Features
+- **Virtual Execution Chamber:** Runs encapsulated custom instruction blocks away from the host OS kernel.
+- **Automated Processing Loops:** Decodes register movements and arithmetic pipelines with low microsecond overhead.
+- **Zero Framework Footprint:** Compiled as a static, self-contained binary for extreme mobility.
+- **Clean Architecture:** Written using explicit Allman-style formatting and localized namespaces.
+
+## Usage
+Run the executable to spin up the virtual environment and execute the pre-mapped bytecode:
+```bash
+./dove
